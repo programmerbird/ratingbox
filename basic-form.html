@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head><link rel="stylesheet" href="ratingbox/styles.css" type="text/css" media="screen" title="no title" charset="utf-8"></head>
+<body>
+	<h1><a href="http://github.com/ssimasanti/ratingbox/">Ratingbox</a> / Basic Form</h1>
+	<form method="GET">
+		<select name="rating" id="id_rating">
+			<option value="10">10/10</option>	
+			<option value="9">9/10</option>	
+			<option value="8">8/10</option>	
+			<option value="7">7/10</option>	
+			<option value="6">6/10</option>	
+			<option value="5">5/10</option>	
+			<option value="4">4/10</option>	
+			<option value="3">3/10</option>	
+			<option value="2">2/10</option>	
+			<option value="1">1/10</option>	
+			<option value="0">0/10</option>	
+		</select>
+		
+		<button type="submit">Submit (GET)</button>
+	</form>
+	
+	<script src="prototype/prototype.js" type="text/javascript" charset="utf-8"></script>
+	<script src="ratingbox/scriptaculous.ratingbox.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" charset="utf-8">
+	document.observe("dom:loaded", function () {
+		new RatingBox('id_rating');		
+	})
+	</script>
+	
+	
+	<ul>
+	<li>
+		<a href="display.html">Display Only</a></li>
+	<li>
+		<a href="basic-form.html">Basic form</a></li>
+	<li>
+		<a href="ajax-form.html">Ajax form</a></li>
+	</ul>
+</body>
+</html>

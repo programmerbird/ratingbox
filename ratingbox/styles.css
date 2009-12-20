@@ -1,0 +1,30 @@
+
+
+.stars { background: url(../ratingbox/small.png) no-repeat top left; width: 90px; height: 21px; display: inline-block; vertical-align: middle;
+	font-size: 0; color: transparent;}
+.stars.pts-10{ background-position: 0 0; }
+.stars.pts-8 { background-position: -18px 0; }
+.stars.pts-6 { background-position: -36px 0; }
+.stars.pts-4 { background-position: -54px 0; }
+.stars.pts-2 { background-position: -72px 0; }
+.stars.pts-0 { background-position: -90px 0; }
+.stars.pts-9{ background-position:  0 -21px; }
+.stars.pts-7 { background-position: -18px -21px; }
+.stars.pts-5 { background-position: -36px -21px; }
+.stars.pts-3 { background-position: -54px -21px; }
+.stars.pts-1 { background-position: -72px -21px; }
+.stars .btn { display: inline-block; width: 9px; height: 21px; }
+
+.big .stars { background: url(../ratingbox/big.png) no-repeat top left; width: 180px; height: 42px; display: inline-block; vertical-align: middle }
+.big .stars.pts-10{ background-position: 0 0; }
+.big .stars.pts-8 { background-position: -36px 0; }
+.big .stars.pts-6 { background-position: -72px 0; }
+.big .stars.pts-4 { background-position: -108px 0; }
+.big .stars.pts-2 { background-position: -144px 0; }
+.big .stars.pts-0 { background-position: -180px 0; }
+.big .stars.pts-9{ background-position:  0 -42px; }
+.big .stars.pts-7 { background-position: -36px -42px; }
+.big .stars.pts-5 { background-position: -72px -42px; }
+.big .stars.pts-3 { background-position: -108px -42px; }
+.big .stars.pts-1 { background-position: -144px -42px; }
+.big .stars .btn { display: inline-block; width: 18px; height: 42px; }
