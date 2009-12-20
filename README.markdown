@@ -1,8 +1,8 @@
 ## Demos
 
-* [Display Only](http://github.com/ssimasanti/ratingbox/raw/master/display.html)
-* [Basic Form](http://github.com/ssimasanti/ratingbox/raw/master/basic-form.html)
-* [Ajax Form](http://github.com/ssimasanti/ratingbox/raw/master/ajax-form.html)
+* [Display Only](http://ssimasanti.github.com/ratingbox/display.html)
+* [Basic Form](http://ssimasanti.github.com/ratingbox/basic-form.html)
+* [Ajax Form](http://ssimasanti.github.com/ratingbox/ajax-form.html)
 
 ## Installation
 
