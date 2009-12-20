@@ -1,3 +1,7 @@
+# Rating Box for Prototype
+
+![Screenshot](http://ssimasanti.github.com/ratingbox/media/ratingbox.png)
+
 ## Demos
 
 * [Display Only](http://ssimasanti.github.com/ratingbox/display.html)
